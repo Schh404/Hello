@@ -19,5 +19,25 @@
       <input type="email" placeholder="E mail"/><br>
       <input type="text" placeholder="Address"/><br>
     </form>
+
+    <Form>
+      <h1>Help me organize!</h1>
+      <lable>Name:</lable>
+      <input type="text" name="user_name" /><br> <!-- name is the name of the place in the database where user's submitted data will be saved-->
+      <label>E mail:</label>
+      <input type="email" name="user-email"/><br>
+      <label>Preferred Time:</label><br>
+      <input type="radio" name="time" value="5pm"/>
+      <label>5PM</label> <!--The value="5pm" means that if this particular radio button is selected by the user, the value "5pm" will be sent when the form is submitted.-->
+      <input type="radio" name="time" value="6pm"/>
+      <label>6PM</label>
+      <input type="radio" name="time" value="7pm"/>
+      <label>7pm</label><br><br>
+
+      <!--CHECKBOX-->
+      <label>Games that you would like to play:</label><br>
+      <input type="checkbox" name="user_interest" value="redrover"/>
+      
+    </Form>
   </body>
 </html>
